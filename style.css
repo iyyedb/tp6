@@ -1,0 +1,149 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Navigation */
+nav {
+    background-color: #202c45;
+    color: white;
+    padding: 15px;
+    position: relative;
+    display: flex;
+}
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #ffb347;
+}
+#btn{
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    color: white;
+    background-color: #ff7244;
+    border-radius: 10px;
+    transition: transform 0.25s ease;
+}
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+/* Boxes produits */
+.prdt {
+    background-color: white;
+    width: 31%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    display: inline-block;
+}
+#ch{
+    font-family: Arial, Sans-serif;
+    font-weight: bold;
+    color: #202c45;
+}
+#chp{
+    color: #ff7244;
+    font-family: Arial, Sans-serif;
+    font-weight: bold;
+}
+img{
+    height: 300px;
+    width: auto;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+    width: 60%;
+}
+table{
+    text-align: center;
+}
+th{
+    background-color: #202c45;
+    color: white;
+    padding: 10px;
+}
+td{
+    background-color: white;
+    padding: 10px;
+}
+td:hover{
+    background-color: gray;
+    color: white;
+}
+th:hover{
+    background-color: gray;
+    color: white;
+}
+a:hover{
+    color: #ccc;
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+/* Catégories */
+.ctg{
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+    border-left: 10px solid #ff7244;
+}
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    margin: auto;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+input, select, textarea {
+    border-radius: 5px;
+    border: none;
+    background-color: gainsboro;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+input#btn {
+    width: 20%;
+    display: block;
+}
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
